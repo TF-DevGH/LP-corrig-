@@ -67,6 +67,10 @@ a:hover {
 
 .text-center{font-size: 1em;}
 
+.text-center.white{
+    color:black!important;
+}
+
 .col-sm-12{
     font-size:1.25em;
 }
