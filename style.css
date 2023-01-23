@@ -1049,7 +1049,7 @@ a.mail{
     
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        width: 10em;
     }
     .nav-invert .navbar-header {
         float: none;
