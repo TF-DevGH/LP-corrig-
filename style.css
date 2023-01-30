@@ -68,7 +68,7 @@ a:hover {
 .text-center{font-size: 1em;}
 
 .text-center.white{
-    color:black!important;
+    color:white!important;
 }
 
 .col-sm-12{
@@ -80,6 +80,10 @@ a:hover {
 }
 
 .text-center.mg-lg.tc-white.tight-width-whitespace{font-size:1.25em;}
+
+.text-center.mg-lg.tc-black.tight-width-whitespace{
+    font-size:1.25em;
+}
 
 .txt1{
     font-size: 1.5em;
@@ -99,6 +103,14 @@ a:hover {
     padding-left: 5em;
     color:rgb(168, 167, 167);
 }
+
+.txt2-black{
+    font-size: 1.25em;
+    padding-right: 5em;
+    padding-left: 5em;
+    color:rgb(0, 0, 0);
+}
+
 .txt3{
     font-size: 1.5em;
     padding-right: 5em;
@@ -148,6 +160,14 @@ a:hover {
     background-attachment: fixed;
 }
 
+.d-flex{
+    display:flex;
+}
+
+.flex-column{
+    flex-flow:column;
+}
+
 .d-bloc {
     color: rgba(255, 255, 255, .7);
 }
@@ -182,7 +202,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -721,7 +741,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -855,6 +875,10 @@ h4 {
 
 .tc-white {
     color: white!important;
+}
+
+.tc-black{
+    color:black;
 }
 
 .btn-atomic-tangerine {
