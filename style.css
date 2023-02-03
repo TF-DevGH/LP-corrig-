@@ -79,6 +79,10 @@ a:hover {
     font-size:0px;
 }
 
+.tc-orange {
+    color: #F3976C!important;
+}
+
 .text-center.mg-lg.tc-white.tight-width-whitespace{font-size:1.25em;}
 
 .text-center.mg-lg.tc-black.tight-width-whitespace{
@@ -852,7 +856,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #2e2d29b3;
     padding: 40px 40px 40px 40px;
 }
 
